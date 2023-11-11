@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Manrope', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Noto Serif', serif;
+}
+
+.card-box-zoom {
+    background-image: url(https://images8.alphacoders.com/374/374816.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.card-box-zoom:hover {
+    background-image: url(https://guardian.ng/wp-content/uploads/2020/09/Djembe-drums-by-the-Crafts-Village-Marketplace.-Photo-ALEXIS-e1600583495501.jpg);
+}
+
+.card-box-zoom:hover h5 {
+    color: #ffff;
+    cursor: pointer;
+    font-size: 20px;
+    visibility: hidden;
+}
+.card-box-zoom h5 {
+    color: #ffff;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.card-box-zoom p {
+    color: #ffff;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.card-box-zoom:hover p {
+    color: #ffff;
+    cursor: pointer;
+    visibility: hidden;
+}
+
+.card-body {
+    transition: all ease-in-out 2s;
+}
+.card-body:hover {
+    transform: scale(1.09);
+}
+
+.carousel-bg-col {
+    background-color: rgb(233, 185, 167);
+}
+/* remove underline */
+.Email-box a {
+    text-decoration: none;
+}
